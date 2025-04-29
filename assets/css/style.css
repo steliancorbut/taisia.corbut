@@ -20,65 +20,15 @@
 
 
 body {
-  font-family: 'Eina', sans-serif;
+  font-family: 'Eina 01', sans-serif;
   color: #002a0d;
 }
 
 .text-spatiat {
-  letter-spacing: 3px; /* Reglează spațierea dintre litere */
-   /* line-height: 1.1; Reglează înălțimea liniei */
+  letter-spacing: 5px; /* Reglează spațierea dintre litere */
+  line-height: 1.5;    /*Reglează înălțimea liniei */
    /* font-weight: 100; Setează greutatea fontului la o valoare mai mică, pentru un efect mai subțire */  
 }
-
-header.masthead {
-    padding-top: 10.5rem;
-    padding-bottom: 6rem;
-    text-align: center;
-    color: black;
-    background-image: url("../img/header-bg.jpg");
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-position: center center;
-    background-size: cover;
-}
-
-    header.masthead .masthead-subheading {
-        font-size: 1.5rem;
-        font-style: normal;
-        line-height: 1.5rem;
-        margin-bottom: 25px;
-        font-family: "Figtree", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-    }
-
-    header.masthead .masthead-heading {
-        font-size: 2.25rem;
-        font-weight: 400;
-        line-height: 3.25rem;
-        margin-bottom: 2rem;
-        font-family: "Figtree", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-    }
-
-@media (min-width: 768px) {
-    header.masthead {
-        padding-top: 17rem;
-        padding-bottom: 12.5rem;
-    }
-
-        header.masthead .masthead-subheading {
-            font-size: 2.25rem;
-            font-style: normal;
-            line-height: 2.25rem;
-            margin-bottom: 2rem;
-        }
-
-        header.masthead .masthead-heading {
-            font-size: 4.5rem;
-            font-weight: 400;
-            line-height: 4.5rem;
-            margin-bottom: 4rem;
-        }
-}
-
 
 
 a {
@@ -97,7 +47,7 @@ h4,
 h5,
 h6,
 .font-heading {
-  font-family: "Raleway", sans-serif;
+  font-family: "Eina 01", sans-serif;
 }
 
 .section {
