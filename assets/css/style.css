@@ -8,9 +8,20 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+
+@font-face {
+  font-family: 'Eina 01';
+  src: url('../fonts/Eina01-Regular.woff2') format('woff2'),
+       url('../fonts/Eina01-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+
 body {
-  font-family: "Inconsolata", monospace;
-  color: #0d1e2d;
+  font-family: 'Eina', sans-serif;
+  color: #002a0d;
 }
 
 header.masthead {
