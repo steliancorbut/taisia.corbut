@@ -30,6 +30,10 @@ body {
    /* font-weight: 100; Setează greutatea fontului la o valoare mai mică, pentru un efect mai subțire */  
 }
 
+.portfolio-spacing {
+  margin-bottom: 6rem; /* ajustează după gust */
+}
+
 .scaled-image {
   width: 70%;       /* sau 70% sau cât dorești */
   max-width: 800px; /* pentru a nu depăși o limită rezonabilă pe ecrane mari */
@@ -388,7 +392,7 @@ h6,
 }
 
 .custom-navbar .navbar-brand {
-  font-size: 1.7rem;
+  font-size: 2.2rem;
 }
 
 /* Burger */
