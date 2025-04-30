@@ -35,7 +35,7 @@ body {
 }
 
 .scaled-image {
-  width: 70%;       /* sau 70% sau cât dorești */
+  width: 75%;       /* sau 70% sau cât dorești */
   max-width: 800px; /* pentru a nu depăși o limită rezonabilă pe ecrane mari */
   height: auto;     /* păstrează proporțiile */
   display: block;
