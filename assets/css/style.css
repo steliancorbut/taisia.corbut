@@ -30,6 +30,10 @@ body {
    /* font-weight: 100; Setează greutatea fontului la o valoare mai mică, pentru un efect mai subțire */  
 }
 
+.page-title-brand {
+  font-size: 1.6rem;
+  letter-spacing: 5px;
+}
 .portfolio-spacing {
   margin-bottom: 6rem; /* ajustează după gust */
 }
@@ -405,9 +409,6 @@ h6,
   font-size: 1.8rem;
 }
 
-.page-title-brand {
-  font-size: 1.6rem;
-}
 
 /* Burger */
 .burger {
