@@ -405,7 +405,9 @@ h6,
   font-size: 1.8rem;
 }
 
-
+.page-title-brand {
+  font-size: 1.6rem;
+}
 
 /* Burger */
 .burger {
