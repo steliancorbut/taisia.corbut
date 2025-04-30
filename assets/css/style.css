@@ -39,11 +39,15 @@ body {
 }
 
 .scaled-image {
-  width: 75%;       /* sau 70% sau cât dorești */
+  width: 80%;       /* sau 70% sau cât dorești */
   max-width: 800px; /* pentru a nu depăși o limită rezonabilă pe ecrane mari */
   height: auto;     /* păstrează proporțiile */
   display: block;
   margin: 0 auto;   /* centrează imaginea */
+}
+
+.separator {
+  height: 5rem;
 }
 
 @media (max-width: 576px) {
@@ -52,7 +56,7 @@ body {
   }
 
   .text-spatiat {
-    font-size: 90% !important;
+    font-size: 80% !important;
   }  
 }
 
