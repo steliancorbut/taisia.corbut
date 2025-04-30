@@ -42,6 +42,16 @@ body {
   margin: 0 auto;   /* centrează imaginea */
 }
 
+@media (max-width: 576px) {
+  .burger {
+    right: 16px;
+  }
+
+  .text-spatiat {
+    font-size: 90% !important;
+  }  
+}
+
 a {
   color: #777;
   text-decoration: none;
@@ -395,11 +405,7 @@ h6,
   font-size: 1.8rem;
 }
 
-@media (max-width: 576px) {
-  .burger {
-    right: 16px;
-  }
-}
+
 
 /* Burger */
 .burger {
