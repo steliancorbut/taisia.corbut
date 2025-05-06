@@ -39,11 +39,13 @@ body {
 }
 
 .scaled-image {
-  width: 85%;       /* sau 70% sau cât dorești */
-  max-width: 800px; /* pentru a nu depăși o limită rezonabilă pe ecrane mari */
-  height: auto;     /* păstrează proporțiile */
+  max-height: 85vh;  /* 95% din inaltimea ecranului */
+  width: auto;    /* lasă browserul să redimensioneze proporțional pe width */
+  height: auto;   /* lasă browserul să redimensioneze proporțional pe height */
+  max-width: 100%;
+  object-fit: contain; /* păstrează proporțiile imaginii, fără decupare sau deformare */
   display: block;
-  margin: 0 auto;   /* centrează imaginea */
+  margin: 0 auto;  /* centrează imaginea orizontal */
 }
 
 .separator {
@@ -58,6 +60,12 @@ body {
   .text-spatiat {
     font-size: 80% !important;
   }  
+}
+
+@media (min-width: 992px) {
+  .scaled-image {
+    max-height: 85vh;
+  }
 }
 
 a {
