@@ -551,3 +551,8 @@ h6,
   background-color: #000;
   color: #fff;
 }
+
+.bio-text {
+  font-size: 1.2rem; /* Poți ajusta: 1.25rem, 18px, etc. */
+  line-height: 1.6;
+}
