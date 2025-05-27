@@ -58,7 +58,7 @@ body {
   bottom: 80px;
   width: 40px;
   height: 40px;
-  background: white; /* sau altă culoare potrivită cu tema ta */
+  background: transparent; /* sau altă culoare potrivită cu tema ta */
   color: gray;
   border: 1px solid gray; /* ✅ contur gri adăugat */
   border-radius: 50%;
