@@ -56,16 +56,27 @@ body {
   position: fixed;
   right: 20px;
   bottom: 80px;
-  width: 40px;
-  height: 40px;
-  background: transparent; /* sau altă culoare potrivită cu tema ta */
+  width: 48px;
+  height: 48px;
+  background: white;
   color: gray;
-  border: 1px solid gray; /* ✅ contur gri adăugat */
   border-radius: 50%;
   z-index: 999;
   opacity: 0;
   visibility: hidden;
   transition: all 0.3s ease-in-out;
+  border: 2px solid gray;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@supports (-webkit-touch-callout: none) {
+  .back-to-top i {
+    font-size: 22px;
+    margin-top: 1px;
+  }
 }
 
 .back-to-top.show {
