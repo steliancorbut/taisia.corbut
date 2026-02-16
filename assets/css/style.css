@@ -642,3 +642,8 @@ h6,
   font-size: 1.2rem; /* Poți ajusta: 1.25rem, 18px, etc. */
   line-height: 1.6;
 }
+
+/* CV Exhibitions alignment */
+.exhibitions-section, .education-section{
+  text-align: right;
+}
