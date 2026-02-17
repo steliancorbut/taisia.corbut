@@ -166,6 +166,30 @@ h6,
   background-color: #000;
 }
 
+/* Portfolio filters (horizontal) */
+.portfolio-filters {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 1rem;
+  justify-content: flex-end;
+  align-items: center;
+}
+.portfolio-filters li {
+  margin: 0;
+}
+.portfolio-filters a {
+  text-decoration: none;
+  color: #000;
+  padding: 6px 10px;
+  display: inline-block;
+}
+.portfolio-filters a:hover,
+.portfolio-filters a.active {
+  font-weight: 700;
+}
+
 .item {
   border: none;
   margin-bottom: 30px;

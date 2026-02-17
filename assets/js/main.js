@@ -58,6 +58,21 @@
         itemSelector: '.item',
       });
 
+      // Ensure Isotope lays out correctly after images load
+      if (typeof imagesLoaded !== 'undefined') {
+        imagesLoaded(portfolioContainer, function() {
+          portfolioIsotope.layout();
+        });
+      } else {
+        // fallback: trigger layout on window load
+        window.setTimeout(function() { portfolioIsotope.layout(); }, 100);
+      }
+
+      // Initialize GLightbox if available for preview links
+      if (typeof GLightbox !== 'undefined') {
+        GLightbox({ selector: '.preview-link' });
+      }
+
       let portfolioFilters = select('#filters a', true);
 
       on('click', '#filters a', function(e) {
