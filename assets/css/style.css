@@ -467,7 +467,8 @@ h6,
 .custom-navmenu .custom-menu li a {
   color: black;
   font-family: 'Eina 01', sans-serif;
-  padding: 20px 20px !important;
+  padding: 20px 10px !important;
+  white-space: nowrap;
 }
 
 .custom-navmenu .custom-menu li a:hover {
@@ -546,7 +547,9 @@ h6,
   width: 28px;
   height: 32px;
   cursor: pointer;
-  position: relative;
+  position: fixed;
+  right: 30px;
+  top: 50px;
   z-index: 1060; /* keep the toggler above the slide-in menu */
 }
 
