@@ -674,3 +674,9 @@ h6,
 .exhibitions-section, .education-section {
   text-align: right;
 }
+
+
+.carousel-text p {
+    font-size: 0.7rem;
+    color: #666;
+}

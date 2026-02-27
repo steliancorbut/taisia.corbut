@@ -82,40 +82,26 @@
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <img src="assets/img/home/1.jpg" class="d-block w-100" alt="Slide 1">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5>The feeling of Wholeness</h5>
-                            <p>Exhibition view, Gregor Podnar, Photo Credit  Manuel Carreon Lopez</p>
-                        </div>
                     </div>
+
                     <div class="carousel-item">
                         <img src="assets/img/home/2.jpg" class="d-block w-100" alt="Slide 2">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5>The feeling of Wholeness</h5>
-                            <p>Exhibition view, Gregor Podnar, Photo Credit  Manuel Carreon Lopez</p>
-                        </div>
                     </div>
                     <div class="carousel-item">
                         <img src="assets/img/home/3.jpg" class="d-block w-100" alt="Slide 3">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5>Work 3</h5>
-                            <p>explicatie.... Creative expression</p>
-                        </div>
                     </div>
                     <div class="carousel-item">
                         <img src="assets/img/home/4.jpg" class="d-block w-100" alt="Slide 4">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5>Work 4</h5>
-                            <p>explicatie.... Sculptural forms</p>
-                        </div>
                     </div>
                     <div class="carousel-item">
                         <img src="assets/img/home/5.jpg" class="d-block w-100" alt="Slide 5">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5>Work 5</h5>
-                            <p>explicatie.. Visual poetry</p>
-                        </div>
                     </div>
                 </div>
+                <div class="carousel-text text-center mt-3">
+                    <p id="carousel-description">Exhibition view, The feeling of Wholeness, Gregor Podnar, Photo Credit  Manuel Carreon Lopez                        
+                    </p>
+                </div>
+
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Previous</span>
@@ -176,6 +162,22 @@
 
     <!-- Main JS File -->
     <script src="assets/js/main.js" defer></script>
+
+    <script>
+        const descriptions = [
+            "Exhibition view, The feeling of Wholeness, Gregor Podnar, Photo Credit  Manuel Carreon Lopez",
+            "Exhibition view, The feeling of Wholeness, Gregor Podnar, Photo Credit  Manuel Carreon Lopez 2",
+            "Exhibition views, ClujInRezidenta, Contemporar",
+            "Exhibition view, Low-Key Epiphany, Relicvar",
+            "Booth View at Vienna Contemporary, Himera Gallery"
+        ];
+
+        const carousel = document.querySelector('#carouselExampleCaptions');
+
+        carousel.addEventListener('slid.bs.carousel', function (event) {
+            document.getElementById('carousel-description').innerText = descriptions[event.to];
+        });
+</script>
 
 </body>
 
