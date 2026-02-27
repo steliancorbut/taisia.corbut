@@ -680,3 +680,30 @@ h6,
     font-size: 0.7rem;
     color: #666;
 }
+
+/* minimalist (stil galerie) */
+.carousel-navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.nav-arrow {
+    background: none;
+    border: none;
+    font-size: 28px;
+    cursor: pointer;
+    color: #111;
+    transition: opacity 0.3s ease;
+}
+
+.nav-arrow:hover {
+    opacity: 0.4;
+}
+
+.carousel-counter {
+    font-size: 14px;
+    letter-spacing: 2px;
+    color: #666;
+}
