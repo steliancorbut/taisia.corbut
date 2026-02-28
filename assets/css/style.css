@@ -711,3 +711,29 @@ h6,
 .carousel-item {
     transition: transform 1.2s ease-in-out;
 }
+
+/* ===== Desktop Only ===== */
+@media (min-width: 992px) {
+
+    #carouselExampleCaptions {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #carouselExampleCaptions .carousel-inner {
+        max-height: 75vh;
+    }
+
+    #carouselExampleCaptions .carousel-item {
+        height: 75vh;
+    }
+
+    #carouselExampleCaptions .carousel-item img {
+        height: 100%;
+        width: auto;
+        max-width: 100%;
+        object-fit: contain;
+        margin: 0 auto;
+    }
+}
