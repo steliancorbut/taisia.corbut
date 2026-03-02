@@ -737,3 +737,38 @@ h6,
         margin: 0 auto;
     }
 }
+
+
+.portfolio-item {
+    opacity: 1;
+    transition: opacity 0.4s ease;
+}
+
+.portfolio-item.hide {
+    opacity: 0;
+    pointer-events: none;
+    height: 0;
+    overflow: hidden;
+    margin: 0;
+}
+
+.portfolio-filters {
+    list-style: none;
+    padding: 0;
+}
+
+.portfolio-filters li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.portfolio-filters a {
+    text-decoration: none;
+    color: #999;
+    letter-spacing: 2px;
+    font-size: 14px;
+}
+
+.portfolio-filters a.active {
+    color: #000;
+}
