@@ -20,13 +20,14 @@ body {
 .text-titlu {
   letter-spacing: 5px; /* Reglează spațierea dintre litere */
   line-height: 1.5;    /*Reglează înălțimea liniei */
+    font-size: 0.6rem;
    /* font-weight: 100; Setează greutatea fontului la o valoare mai mică, pentru un efect mai subțire */  
 }
 
 .text-spatiat {
   letter-spacing: 5px; /* Reglează spațierea dintre litere */
   line-height: 1.1;    /*Reglează înălțimea liniei */
-  font-size: 0.8rem;
+  font-size: 0.6rem;
    /* font-weight: 100; Setează greutatea fontului la o valoare mai mică, pentru un efect mai subțire */  
 }
 
