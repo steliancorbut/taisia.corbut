@@ -20,7 +20,7 @@ body {
 .text-titlu {
   letter-spacing: 5px; /* Reglează spațierea dintre litere */
   line-height: 1.5;    /*Reglează înălțimea liniei */
-    font-size: 0.6rem;
+  font-size: 0.7rem;
    /* font-weight: 100; Setează greutatea fontului la o valoare mai mică, pentru un efect mai subțire */  
 }
 
@@ -174,7 +174,6 @@ h6,
   padding: 0;
   display: flex;
   gap: 1rem;
-  justify-content: flex-end;
   align-items: center;
 }
 .portfolio-filters li {
