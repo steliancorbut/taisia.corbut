@@ -17,6 +17,13 @@ body {
   color: #002a0d;
 }
 
+/* Spațiu mai mare sub navbar pe mobil */
+@media (max-width: 768px) {
+  .section {
+    padding-top: 60px;
+  }
+}
+
 /* ===== Mobile (default) ===== */
 
 .text-titlu {
