@@ -204,15 +204,22 @@ h6,
 .portfolio-filters li {
   margin: 0;
 }
+
 .portfolio-filters a {
   text-decoration: none;
-  color: #000;
+  color: #6c757d; /* exact ca text-muted in Bootstrap*/
   padding: 6px 10px;
   display: inline-block;
+  transition: color 0.3s ease;
 }
-.portfolio-filters a:hover,
+
+.portfolio-filters a:hover {
+  color: #000;
+}
+
 .portfolio-filters a.active {
-  font-weight: 700;
+  color: #000;
+  font-weight: 600;
 }
 
 .item {
@@ -787,13 +794,4 @@ h6,
     margin-left: 20px;
 }
 
-.portfolio-filters a {
-    text-decoration: none;
-    color: #999;
-    letter-spacing: 2px;
-    font-size: 14px;
-}
 
-.portfolio-filters a.active {
-    color: #000;
-}
