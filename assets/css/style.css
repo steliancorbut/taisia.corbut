@@ -20,7 +20,7 @@ body {
 .text-titlu {
   letter-spacing: 5px; /* Reglează spațierea dintre litere */
   line-height: 1.5;    /*Reglează înălțimea liniei */
-  font-size: 0.7rem;
+  font-size: 0.8rem;
    /* font-weight: 100; Setează greutatea fontului la o valoare mai mică, pentru un efect mai subțire */  
 }
 
@@ -50,7 +50,7 @@ body {
 }
 
 .separator {
-  height: 5rem;
+  height: 4rem;
 }
 
 .back-to-top {
