@@ -17,18 +17,36 @@ body {
   color: #002a0d;
 }
 
+/* ===== Mobile (default) ===== */
+
 .text-titlu {
-  letter-spacing: 5px; /* Reglează spațierea dintre litere */
-  line-height: 1.5;    /*Reglează înălțimea liniei */
-  font-size: 0.8rem;
-   /* font-weight: 100; Setează greutatea fontului la o valoare mai mică, pentru un efect mai subțire */  
+  letter-spacing: 2px;
+  line-height: 1.4;
+  font-size: 1rem;
+  font-weight: 500;
 }
 
 .text-spatiat {
-  letter-spacing: 5px; /* Reglează spațierea dintre litere */
-  line-height: 1.1;    /*Reglează înălțimea liniei */
-  font-size: 0.6rem;
-   /* font-weight: 100; Setează greutatea fontului la o valoare mai mică, pentru un efect mai subțire */  
+  letter-spacing: 1.5px;
+  line-height: 1.4;
+  font-size: 0.75rem;
+}
+
+
+/* ===== Desktop ===== */
+
+@media (min-width: 992px) {
+
+  .text-titlu {
+    font-size: 0.9rem;
+    letter-spacing: 5px;
+  }
+
+  .text-spatiat {
+    font-size: 0.65rem;
+    letter-spacing: 5px;
+  }
+
 }
 
 .page-title-brand {
