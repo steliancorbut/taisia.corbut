@@ -22,14 +22,14 @@ body {
 .text-titlu {
   letter-spacing: 2px;
   line-height: 1.4;
-  font-size: 1rem;
-  font-weight: 500;
+  font-size: 0.8rem;
+  font-weight: 300;
 }
 
 .text-spatiat {
   letter-spacing: 1.5px;
   line-height: 1.4;
-  font-size: 0.75rem;
+  font-size: 0.55rem;
 }
 
 
@@ -38,12 +38,12 @@ body {
 @media (min-width: 992px) {
 
   .text-titlu {
-    font-size: 0.9rem;
+    font-size: 0.7rem;
     letter-spacing: 5px;
   }
 
   .text-spatiat {
-    font-size: 0.65rem;
+    font-size: 0.55rem;
     letter-spacing: 5px;
   }
 
