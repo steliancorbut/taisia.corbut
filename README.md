@@ -4,7 +4,7 @@
 <br />
 <p align="center">
   <a href="https://taisia.corbut.ro">
-    <img src="assets/img/navbar-logo-mural-factory.webp" alt="Logo MURAL FACTORY">
+    <img src="assets/img/favicon.ico" alt="Logo Taisia Corbut">
   </a>
 </p>
 
