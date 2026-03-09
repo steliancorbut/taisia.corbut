@@ -51,7 +51,7 @@ body {
 
   .text-spatiat {
     font-size: 0.55rem;
-    letter-spacing: 5px;
+    letter-spacing: 4px;
   }
 
 }
@@ -65,7 +65,7 @@ body {
 }
 
 .scaled-image {
-  max-height: 85vh;  /* 95% din inaltimea ecranului */
+  max-height: 70vh;  /* 95% din inaltimea ecranului */
   width: auto;    /* lasă browserul să redimensioneze proporțional pe width */
   height: auto;   /* lasă browserul să redimensioneze proporțional pe height */
   max-width: 100%;
@@ -774,6 +774,9 @@ h6,
 .portfolio-item {
     opacity: 1;
     transition: opacity 0.4s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .portfolio-item.hide {
@@ -782,6 +785,13 @@ h6,
     height: 0;
     overflow: hidden;
     margin: 0;
+}
+
+.portfolio-item img {
+  max-height: 70vh;
+  width: auto;
+  max-width: 100%;
+  object-fit: contain;
 }
 
 .portfolio-filters {
