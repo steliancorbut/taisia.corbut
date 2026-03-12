@@ -15,6 +15,7 @@
 body {
   font-family: 'Eina 01', sans-serif;
   color: #002a0d;
+  background-color: #F2F0EF;
 }
 
 /* Spațiu mai mare sub navbar pe mobil */
@@ -72,6 +73,9 @@ body {
   object-fit: contain; /* păstrează proporțiile imaginii, fără decupare sau deformare */
   display: block;
   margin: 0 auto;  /* centrează imaginea orizontal */
+  background-color: #ffffff;
+  padding: 8px;
+  box-shadow: 0 4px 18px rgba(0,0,0,0.08);
 }
 
 .separator {
@@ -84,7 +88,7 @@ body {
   bottom: 80px;
   width: 48px;
   height: 48px;
-  background: white;
+  background: #F2F0EF;
   color: gray;
   border-radius: 50%;
   z-index: 999;
@@ -467,7 +471,7 @@ h6,
   transition: transform 0.28s ease-in-out;
   z-index: 1040;
   overflow-y: auto; /* allow scrolling only if content exceeds max-height */
-  background-color: white;
+  background-color: #F2F0EF;
   color: #000;
   box-shadow: -6px 0 18px rgba(0,0,0,0.08);
   padding-top: 1.25rem;
@@ -579,9 +583,8 @@ h6,
   width: 28px;
   height: 32px;
   cursor: pointer;
-  position: fixed;
-  right: 30px;
-  top: 50px;
+  position: relative;
+
   z-index: 1060; /* keep the toggler above the slide-in menu */
 }
 
