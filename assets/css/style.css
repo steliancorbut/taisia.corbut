@@ -663,7 +663,7 @@ h6,
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  background: #f8f9fa;
+  background-color: #F2F0EF;
   position: relative;
   text-align: center;
   color: #0d1e2d;
@@ -680,6 +680,8 @@ h6,
 .social a:hover {
   color: #000;
 }
+
+
 
 .cta-section {
   background-color: #f9f9f9;
