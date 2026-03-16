@@ -73,9 +73,6 @@ body {
   object-fit: contain; /* păstrează proporțiile imaginii, fără decupare sau deformare */
   display: block;
   margin: 0 auto;  /* centrează imaginea orizontal */
-  background-color: #ffffff;
-  padding: 8px;
-  box-shadow: 0 4px 18px rgba(0,0,0,0.08);
 }
 
 .separator {
