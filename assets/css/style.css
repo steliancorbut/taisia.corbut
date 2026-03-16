@@ -770,6 +770,13 @@ h6,
     }
 }
 
+/* ===== mobile ===== */
+@media (max-width: 768px) {
+  #carouselExampleCaptions {
+    margin-top: 60px;
+  }
+}
+
 
 .portfolio-item {
     opacity: 1;
