@@ -651,11 +651,17 @@ h6,
 # Footer
 --------------------------------------------------------------*/
 .footer {
-  padding: 0 0 2rem 0;
+  padding: 20px 0;
 }
 
 .footer a {
   color: #000;
+}
+
+.footer-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .social a {
@@ -814,3 +820,26 @@ h6,
 }
 
 
+.contact-page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-page #main {
+  flex: 1;
+}
+
+.contact-page .section {
+  padding-top: 80px;
+}
+
+.home-page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.home-page #main {
+  flex: 1;
+}
