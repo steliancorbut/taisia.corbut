@@ -67,7 +67,7 @@ body {
 
 .scaled-image {
   width: 100%;
-  max-width: 600px;   /* ajustezi: 600–800px în funcție de cum arată pe laptop */
+  max-width: 400px;   /* ajustezi: 600–800px în funcție de cum arată pe laptop */
   height: auto;
   display: block;
   margin: 0 auto;
