@@ -66,14 +66,14 @@ body {
 }
 
 .scaled-image {
-  max-height: 70vh;  /* 95% din inaltimea ecranului */
-  width: auto;    /* lasă browserul să redimensioneze proporțional pe width */
-  height: auto;   /* lasă browserul să redimensioneze proporțional pe height */
-  max-width: 100%;
-  object-fit: contain; /* păstrează proporțiile imaginii, fără decupare sau deformare */
+  width: 100%;
+  max-width: 600px;   /* ajustezi: 600–800px în funcție de cum arată pe laptop */
+  height: auto;
   display: block;
-  margin: 0 auto;  /* centrează imaginea orizontal */
+  margin: 0 auto;
+
 }
+
 
 .separator {
   height: 4rem;
@@ -125,9 +125,13 @@ body {
   }  
 }
 
-@media (min-width: 992px) {
+@media (max-width: 768px) {
   .scaled-image {
-    max-height: 85vh;
+    max-width: 100%;
+  }
+
+  .sticky-content {
+    max-width: 100%;
   }
 }
 
