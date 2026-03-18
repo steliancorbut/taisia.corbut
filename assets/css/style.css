@@ -703,23 +703,6 @@ h6,
 }
 
 
-.cta-link2 {
-  text-decoration: none;
-  color: #000;
-  font-size: 0.75rem;
-  letter-spacing: 3px;
-  text-transform: lowercase;
-  border-bottom: 1px solid #000;
-  padding-bottom: 3px;
-  transition: opacity 0.3s ease;
-}
-
-.cta-link2:hover {
-  opacity: 0.6;
-}
-
-
-
 .bio-text {
   font-size: 1.2rem; /* Poți ajusta: 1.25rem, 18px, etc. */
   line-height: 1.6;
